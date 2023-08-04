@@ -1,0 +1,428 @@
+/* CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Smooth Scrolling */
+html{
+scroll-behavior: smooth;
+
+}
+
+/* Navigation bar logo and text div  */
+#logo {
+    height: 22vh;
+    width: 12%;
+    margin: 7px -3px;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+
+}
+
+
+/* Text of the logo */
+#logo-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #f5e5e5;
+    /* text-align: left; */
+    padding-left: 12px;
+    /* padding-top:1px; */
+
+
+}
+
+/* Navigation bar logo image */
+#logo img {
+    height: 71px;
+    width: 82px;
+    padding-left: 15px;
+    /* margin: auto; */
+    /* background-image: none; */
+    /* display: block; */
+    margin: 2px 3px;
+
+
+}
+
+/* Navigation Bar direct target */
+#nav-bar {
+    position: sticky;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* overflow: hidden; */
+    /* flex-direction:column; */
+    /* justify-content:center; */
+}
+
+
+/* Navigation bar list item(Home,About Us,..etc) */
+#nav-bar ul {
+    display: flex;
+    position: relative;
+    left: 188px;
+    /* justify-content: center; */
+    /* flex-direction:center; */
+    /* justify-content: right; */
+    /* justify-content: right;*/
+
+}
+
+#nav-bar ul li {
+    list-style: none;
+    font-size: 1rem;
+    align-self: right;
+    /* text-align: right; */
+    /* display:block; */
+    /* margin:auto; */
+    /* text-align: right; */
+
+
+}
+
+#nav-bar ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 4px 13px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 89px;
+
+}
+
+/* Sticky class to give navbar sticky design */
+.sticky{
+    position:-webkit-sticky;
+position:sticky;
+top:0;
+left:0;
+
+}
+
+#nav-bar ul input[type=text] {
+    position: relative;
+    top: 4px;
+    left: 208px;
+    height: 14px;
+    width: 179px;
+    font-size: 0.85rem;
+    padding: 4px 8px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 8px;
+
+}
+
+/* This is to add a color or any image behind navigation bar */
+#nav-bar::before {
+    content: " ";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 39%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* This is the hover effect on the list items */
+#nav-bar ul li a:hover {
+    color: black;
+    background-color: white;
+    /* padding:7px; */
+
+}
+
+/* Home Section With id(Home) */
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 145px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+
+}
+
+
+#home::before {
+    content: " ";
+    background: url('food delivery website  images/back1.jpg') no-repeat center center/cover;
+    /* background-position: cover;
+       background-size: center;
+       background-repeat: no-repeat; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 385px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.78;
+
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+/* Food Delivery Bulk Ordering etc Containers */
+#service-container>h1 {
+    text-align: center;
+
+}
+
+#service-container {
+    /* height: 535px; */
+    /* align-items: center; */
+    margin-top: 72px;
+    margin-bottom: 35px;
+    /* border:2px solid black; */
+
+}
+
+#services {
+    display: flex;
+    margin: 4px 24px;
+
+}
+
+
+#services .box {
+
+    border: 2px solid black;
+    padding: 19px;
+    /* width:122px; */
+    margin: 3px 10px;
+    border-radius: 11px;
+    background-color: #f5e5e5;
+    /* margin:21px; */
+
+}
+
+
+#services .box p {
+
+    font-family: 'Bree Serif', serif;
+    /* padding:1px 4px; */
+
+}
+
+#services .box img {
+    height: 156px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 11px;
+
+}
+
+#sponsor-heading {
+    position: relative;
+    top: 25px;
+
+}
+
+#sponsors-section::before {
+    content: "";
+    position: absolute;
+    background: url('food delivery website  images/lemon\ 1.jpg') no-repeat center center/cover;
+    /* background-position:center;
+       background-size:cover;
+       background-repeat:no-repeat; */
+    width: 100%;
+    height: 44vh;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+
+#sponsors-section #sponsors {
+    display: flex;
+    justify-content: center;
+    /* flex-direction:row; */
+    align-items: center;
+
+}
+
+#sponsors-section #sponsors .sponsor-item {
+    padding: 21px;
+
+}
+
+#sponsors-section #sponsors img {
+    height: 135px;
+
+}
+
+/* Contact Section */
+#contact-box {
+    position: relative;
+    /* height:122px; */
+    /* align-items:flex-start; */
+
+
+}
+
+#contact-box::before {
+    content: " ";
+    position: absolute;
+    background: url('food delivery website  images/contact\ form\ image.png') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.52;
+
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 22px;
+    /* height:122px; */
+    /* height:12%; */
+    /* padding:12px; */
+
+}
+
+#contact input {
+    width: 100%;
+    padding: 9px;
+    font-size: 0.84rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    font-family: 'Bree Serif', serif;
+    height: 10vh;
+    border: 2px solid black;
+    resize: none;
+
+}
+
+#contact form {
+
+    width: 35%;
+    /* height:12%; */
+
+}
+
+
+#contact form label {
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+    top: 6px;
+    /* padding-bottom:12px;
+        margin-bottom:10px; */
+
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    height: 9vh;
+
+}
+
+#footer-section {
+    font-size: 0.97rem;
+    padding: 9px 7px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 9px;
+
+}
+
+.rounded {
+    border: 3px solid black;
+    border-radius: 3px;
+    /* height:2px; */
+    /* margin:1px 3px; */
+
+}
+
+/* Social media icons styling */
+
+.social-icon {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 15px;
+    right: 30px;
+
+}
+
+.social-icon a img {
+    height: 23px;
+    padding: 1px 6px;
+
+}
+
+/* Utility Classes */
+/* You can make utility classes in which you can ideal set the properties which you can repeat for multiple same items */
+
+.h-primary {
+    font-size: 3rem;
+    /* text-align:center; */
+    font-family: 'Bree Serif', serif;
+    padding: 14px;
+
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding-bottom: 9px;
+
+}
+
+.btn {
+    padding: 4px 17px;
+    color: white;
+    background-color: rgb(135 81 30);
+    border: 2px solid white;
+    border-radius: 11px;
+    margin: 12px 2px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bold; */
+
+}
+
+.center {
+    text-align: center
+}
+
+
+
+/* The End of the code.....
+Alhamdullilah Website has been designed well to some extent */

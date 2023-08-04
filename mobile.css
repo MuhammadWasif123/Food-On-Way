@@ -1,0 +1,266 @@
+/* Navigation */
+
+#nav-bar {
+    flex-direction: column;
+
+}
+
+#nav-bar ul {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 5px
+}
+
+
+#nav-bar ul li a {
+    padding: 0px 5px;
+    margin-left: 1px;
+    margin-bottom: 45px;
+    font-size: 0.8rem;
+
+}
+
+#nav-bar ul input[type=text] {
+    display: none;
+
+}
+@media screen and (max-width:1285px) {
+
+    #nav-bar::before {
+        height: 72%;
+
+    }
+}
+
+#logo {
+    height: 2vh;
+    width: 13%;
+    margin: 11px 0px;
+    position: relative;
+    bottom: 83px;
+    left: 1px;
+}
+
+
+#logo img {
+    visibility: hidden;
+
+}
+
+#logo-text {
+    font-size: 13px;
+    width: 100px;
+    margin-top: 2px;
+}
+
+#home {
+
+    height: 182px;
+    padding: 1px 1px;
+}
+
+
+#home::before {
+    height: 336px;
+
+}
+
+#home p {
+    font-size: 1.2rem;
+
+}
+
+
+/* Services Section */
+
+#service-container {
+    margin-top: 67px;
+
+}
+
+#services {
+    flex-direction: column;
+    margin: 2px 0px;
+
+}
+
+#services .box {
+
+    margin: 5px 10px;
+    padding: 6px 8px;
+
+}
+
+#services .box img {
+
+    height: 79px;
+    top: 6px;
+}
+
+
+/* Sponsors Section */
+
+#sponsors-section {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    height: 281px;
+
+
+}
+
+#sponsors-section::before {
+
+    width: 101%;
+    content: "";
+    position: absolute;
+    background: url('food delivery website  images/lemon\ 1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+#sponsors-section #sponsors {
+    flex-wrap: wrap;
+    position: relative;
+    top: 22px;
+
+}
+
+
+#sponsors-section #sponsors img {
+    height: 100px;
+
+}
+
+#sponsor-heading {
+    position: relative;
+    top: 17px;
+}
+
+#sponsors-section #sponsors .sponsor-item {
+    padding: 7px 10px;
+}
+
+
+/* Contact Us Section */
+#contact {
+    position: relative;
+    bottom: 3px;
+
+}
+
+#contact form label {
+
+    font-size: 0.85rem;
+    position: relative;
+    top: 6px;
+
+}
+
+#contact input {
+    padding: 3px;
+    font-size: 0.79rem;
+    border-radius: 8px;
+    margin: 8px 1px;
+
+}
+
+#contact textarea {
+    padding: 3px;
+    font-size: 0.8rem;
+    height: 8vh;
+    margin: 8px 1px;
+}
+
+
+/* Footer Section */
+.footer-section {
+    font-size: 0.77rem;
+    position: relative;
+    top: 26px;
+
+}
+
+.social-icon {
+    position: relative;
+    top: 34px;
+    right: 14px;
+
+}
+
+
+footer {
+    height: 18vh;
+
+}
+
+
+/* Width Wise media query */
+@media screen and(max-width:390px) {
+
+    .btn {
+        padding: 4px 8px;
+        margin: 14px 3px;
+        font-size: 0.8rem;
+
+
+    }
+
+    #home {
+        height: 146px;
+
+
+    }
+
+    #home::before {
+
+        height: 343px;
+
+
+    }
+
+    #home p {
+        font-size: 0.9rem;
+    }
+
+    .h-primary {
+        font-size: 1.2rem;
+
+
+    }
+
+
+
+}
+
+/* Utility Classes */
+.h-primary {
+
+    font-size: 1.3rem;
+    /* text-align: center; */
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+
+}
+
+.h-secondary {
+    font-size: 1.1rem;
+    padding-bottom: 6px;
+
+}
+
+.btn {
+    padding: 4px 8px;
+    margin: 14px 3px;
+    font-size: 0.8rem;
+
+}
+
+
+
+
+/* The End of the code.....
+Alhamdullilah Website has become responsive to some extent */
